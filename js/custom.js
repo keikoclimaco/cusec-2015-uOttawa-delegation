@@ -22,6 +22,7 @@ $(document).ready(function() {
     '<li><a href="css/salmon.css" style="background:#F86D18">Salmon</a></li>' +
     '<li><a href="css/eggplant.css" style="background:#FFCC00">Eggplant</a></li>' +
     '</ul>' +
+    /*why wont it work T_T*/
     /*'<ul class="switcher dark">' +
     '<li><a href="css/dark-orange.css" style="background:#F86D18">Dark Orange</a></li>' +
     '<li><a href="css/dark-yellow.css" style="background:#FFCC00">Dark Yellow</a></li>' +
