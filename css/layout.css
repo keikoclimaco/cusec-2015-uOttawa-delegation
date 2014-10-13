@@ -534,7 +534,7 @@ hr {
 /* HEADER
 ================================================== */
 #mainHeader{background:#eee;}
-.navbar-brand{padding-top:30px;padding-left: 0;}
+.navbar-brand{padding-top:10px;padding-left: 0;}
 
 
 .fixedHeader {
@@ -627,7 +627,7 @@ body#fullScreen #mainHeader{display:none;}
 #mapWrapper{ height:350px; }
 
 #homeFullScreen {
-	background-image: url('../images/theme-pics/big-city.jpg');
+	background-image: url('../images/theme-pics/rohan-poster-bg.jpg');
 	/*background-image: url('../images/theme-pics/paralax-1.jpg');*/
 	height:100%;
 	display:table;
