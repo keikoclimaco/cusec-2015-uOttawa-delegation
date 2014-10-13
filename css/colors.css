@@ -25,9 +25,9 @@
 ================================================== */
 
 /** tabs **/
-.panel-default>.panel-heading {background:#472281; }
+.panel-default>.panel-heading {background:#4FAFC2; }
 .panel-default>.panel-heading:hover {background:#fff; }
-.panel-default>.panel-heading:hover a {color:#472281; }
+.panel-default>.panel-heading:hover a {color:#4FAFC2; }
 .panel-title>a {color:#fff;}
 .panel-title>a:hover {text-decoration: none;}
 
@@ -53,7 +53,7 @@ h2 {
 }
 h2 i {color:#999}
 h2.subTitle:after, h1.noSubtitle:after{
-	background-color:#472281;
+	background-color:#4FAFC2;
 }
 
 /*** parallax sections ***/
@@ -62,10 +62,10 @@ h2.subTitle:after, h1.noSubtitle:after{
 	color:#fff;
 }
 #home, #paralaxSlice1, #paralaxSlice2, #paralaxSlice3, #paralaxSlice4 {
-	background-color:#472281;
+	background-color:#4FAFC2;
 }
 #home {
-	background-image:url('../images/theme-pics/paralax-grey-3.jpg');
+	background-image:url('../images/theme-pics/paralax-blue-3.jpg');
 }
 #paralaxSlice1 {
 	background-image: url('../images/theme-pics/paralax-1.jpg');
@@ -90,26 +90,26 @@ h2.subTitle:after, h1.noSubtitle:after{
 ================================================== */
 
 a {
-	color:#472281;
+	color:#4FAFC2;
 }
 a:hover, .scrollspyNav .active a {
-	color:#472281;
+	color:#4FAFC2;
 }
 ul.iconsList li a {
 	color:#555
 }
 ul.iconsList li a:hover, ul.iconsList i {
-	color:#472281
+	color:#4FAFC2
 }
 
 /*** buttons ***/
 .btn {
-	background:#472281;
+	background:#4FAFC2;
 	color:#fff;
 	border:2px solid #fff;
 }
 .btn:hover {
-	color:#472281;
+	color:#4FAFC2;
 	border-color:#eee;
 	text-shadow:none;
 	background:#fff
@@ -165,7 +165,7 @@ ul.iconsList li a:hover, ul.iconsList i {
 	color:#444;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background: #472281;
+	background: #4FAFC2;
 	color:#fff;
 }
 
@@ -189,7 +189,7 @@ p.credits {
 	color:#555;
 }
 p.credits a {
-	color:#472281;
+	color:#4FAFC2;
 }
 
 /* END FOOTER 
@@ -216,7 +216,7 @@ p.credits a {
 	color:#FFFFFF;
 }
 .flexslider .flex-direction-nav a {
-	background-color:#472281;
+	background-color:#4FAFC2;
 }
 
 .flexslider .flex-control-paging li a:hover, #sliderWrapper .flex-control-paging li a.flex-active{
@@ -232,7 +232,7 @@ p.credits a {
 }
 .flexslider h1 {
 	color:#fff;
-	background-color:#472281;
+	background-color:#4FAFC2;
 }
 .flexslider h2 {
 	color:#fff;
@@ -264,7 +264,7 @@ nav#filter a {
 	color:#555;
 }
 nav#filter a:hover, nav#filter a.current {
-	background-color: #472281;
+	background-color: #4FAFC2;
 	color:#fff;
 }
 li.filterTitle {
@@ -273,7 +273,7 @@ li.filterTitle {
 section#projectDescription {
 	background-color:#F8F8F8
 }
-.mask{background-color: #472281;}
+.mask{background-color: #4FAFC2;}
 /* END PORTFOLIO
 ================================================== */
 
@@ -318,7 +318,7 @@ section#projectDescription {
 	color:#fff!important;
 }
 .pricingBloc.focusPlan h3 {
-	background-color:#472281;
+	background-color:#4FAFC2;
 	padding:1.25em;
 	color:#fff!important;
 }
@@ -327,20 +327,20 @@ section#projectDescription {
 .form-control:focus{
 	border: none;
 	background-color:#ddd;
-	box-shadow:none;
-	-webkit-box-shadow:none;
-	-moz-box-shadow:none;
+	box-shadow:none!important;
+	-webkit-box-shadow:none!important;
+	-moz-box-shadow:none!important;
 }
 .form-control {
 	color: #444;
 	background-color:#ededed;
     border:none;
 }
-.error {color: #B94A48;
+.has-error .form-control  {color: #B94A48;
 background-color: #F2DEDE;
 border-color: #EED3D7;}
 
-label.error {color:#fff;
+.has-error div {color:#fff;
 background-color: #B94A48;
 border:none}
 
@@ -354,7 +354,7 @@ border:none}
 
 /*** Feature box **/
 
-.boxFeature i{color:#472281;} 
+.boxFeature i{color:#4FAFC2;} 
 
 /*** slices ***/
 .slice{
@@ -379,11 +379,11 @@ border:none}
 	color:#444;
 }
 .color1 a.btn{color:#fff;}
-.color1 a.btn:hover{color:#472281;}
+.color1 a.btn:hover{color:#4FAFC2;}
 
 /*color4*/
 .color4, .slice.color4, .bulle.color4, .ctaBox.color4{
-	background-color:#472281;
+	background-color:#4FAFC2;
 	color:#fff;
 }
 
@@ -395,10 +395,10 @@ border:none}
 	background:#fff;
 }
 /*** icons ***/
-.iconRounded {border:2px solid #472281;color:#472281;background-color:#fff;}
-.iconRounded:hover, .color1 .iconRounded:hover{background-color:#472281;color:#fff;}
-.color1 .iconRounded {color:#472281;}
-.color4 .iconRounded {background-color:#FFF;color:#472281;}
+.iconRounded {border:2px solid #4FAFC2;color:#4FAFC2;background-color:#fff;}
+.iconRounded:hover, .color1 .iconRounded:hover{background-color:#4FAFC2;color:#fff;}
+.color1 .iconRounded {color:#4FAFC2;}
+.color4 .iconRounded {background-color:#FFF;color:#4FAFC2;}
 
 /* END NEKO CSS FRAMEWORK
 ================================================== */
