@@ -327,20 +327,20 @@ section#projectDescription {
 .form-control:focus{
 	border: none;
 	background-color:#ddd;
-	box-shadow:none!important;
-	-webkit-box-shadow:none!important;
-	-moz-box-shadow:none!important;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
 }
 .form-control {
 	color: #444;
 	background-color:#ededed;
     border:none;
 }
-.has-error .form-control  {color: #B94A48;
+.error {color: #B94A48;
 background-color: #F2DEDE;
 border-color: #EED3D7;}
 
-.has-error div {color:#fff;
+label.error {color:#fff;
 background-color: #B94A48;
 border:none}
 
@@ -394,6 +394,7 @@ border:none}
 .color4 h2.subTitle:after, .color4 h1.noSubtitle:after {
 	background:#fff;
 }
+
 /*** icons ***/
 .iconRounded {border:2px solid #4FAFC2;color:#4FAFC2;background-color:#fff;}
 .iconRounded:hover, .color1 .iconRounded:hover{background-color:#4FAFC2;color:#fff;}
