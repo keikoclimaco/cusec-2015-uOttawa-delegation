@@ -20,7 +20,6 @@ $(document).ready(function() {
     '<a href="#" id="showHideSwitcher"><i class="icon-cog"></i></a>' +
     '<h1>style switcher</h1><ul class="switcher">' +
     '<li><a href="css/eggplant.css" style="background:#472281">Eggplant</a></li>' +
-    '<li><a href="css/salmon.css" style="background:#FFCC00">Salmon</a></li>' +
     '</ul>' +
     /*'<ul class="switcher dark">' +
     '<li><a href="css/dark-orange.css" style="background:#F86D18">Dark Orange</a></li>' +
