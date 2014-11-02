@@ -5068,7 +5068,7 @@ a.thumbnail:focus {
 
 .alert-danger {
   color: #b94a48;
-  background-color: #d5c2d1;
+  background-color: #eeeeee;
   border-color: #674761;
 }
 
@@ -5316,11 +5316,12 @@ a.list-group-item:focus {
 
 .panel {
   margin-bottom: 20px;
-  background-color: #ffffff;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  color: black;
+  background-color: #eeeeee;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.00);
+          box-shadow: 0 0px 0px rgba(0, 0, 0, 0.00);
 }
 
 .panel-body {
@@ -5380,7 +5381,7 @@ a.list-group-item:focus {
   padding: 10px 15px;
   border-bottom: 1px solid transparent;
   border-top-right-radius: 3px;
-  border-top-left-radius: 3px;
+  border-top-left-radius: 0px;
 }
 
 .panel-title {
@@ -5390,7 +5391,8 @@ a.list-group-item:focus {
 }
 
 .panel-title > a {
-  color: inherit;
+  font-color: #260d21;
+  font-weight: bold;
 }
 
 .panel-footer {
