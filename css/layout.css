@@ -69,10 +69,9 @@ display:block;
 }
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){
-}
+@media(max-width:992px){}
 
-@media(min-width:768px){}
+@media(min-width:992px){}
 
 @media(min-width:992px){}
 
@@ -146,9 +145,9 @@ display:block;
 
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){}
+@media(max-width:992px){}
 
-@media(min-width:768px){
+@media(min-width:992px){
 	.isotopeItem .iconBig{
 		font-size: 33px;
 	}
@@ -385,9 +384,9 @@ hr {
 
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){}
+@media(max-width:992px){}
 
-@media(min-width:768px){
+@media(min-width:992px){
 	.paralaxText blockquote {
 	font-size: 44px;
 	line-height: 44px;
@@ -462,14 +461,14 @@ hr {
 
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){
+@media(max-width:992px){
 	.btn-lg {
-		padding: 14px 18px;
+		padding: 992x 18px;
 		font-size: 18px;
 	}
 }
 
-@media(min-width:768px){
+@media(min-width:992px){
 	.slice {padding:66px 0;}
 }
 
@@ -509,9 +508,9 @@ hr {
 
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){}
+@media(max-width:992px){}
 
-@media(min-width:768px){}
+@media(min-width:992px){}
 
 @media(min-width:992px){}
 
@@ -555,9 +554,9 @@ hr {
 
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){}
+@media(max-width:992px){}
 
-@media(min-width:768px){}
+@media(min-width:992px){}
 
 @media(min-width:992px){}
 
@@ -592,14 +591,14 @@ hr {
 
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){
+@media(max-width:992px){
 	.navbar-nav > li > a i {
-		margin-right: 10px;
+		margin-ri992: 10px;
 		font-size: 18px;
 	}
 }
 
-@media(min-width:768px){
+@media(min-width:992px){
 	.navbar-nav > li > a i {
 		display: block;
 	}
@@ -627,7 +626,7 @@ body#fullScreen #mainHeader{display:none;}
 #mapWrapper{ height:350px; }
 
 #homeFullScreen {
-	background-image: url('../images/theme-pics/rohan-poster-bg.jpg');
+	background-image: url('../images/rohan-poster-bg.jpg');
 	/*background-image: url('../images/theme-pics/paralax-1.jpg');*/
 	height:100%;
 	display:table;
@@ -651,12 +650,12 @@ body#fullScreen #mainHeader{display:none;}
 
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){
+@media(max-width:992px){
 	#homeFullScreen #flexHome h1 {font-size:22px;}
-	#logoBig {padding:0 11px;}
+	#logoBig {pad992g:0 11px;}
 }
 
-@media(min-width:768px){
+@media(min-width:992px){
 	#home {padding-top:70px;}
 
 }
@@ -688,7 +687,7 @@ footer{padding:44px 0;}
 
 
 
-@media(min-width:768px){.footerWidget{float:right;}}
+@media(min-width:992px){.footerWidget{float:right;}}
 /* END FOOTER 
 ================================================== */
 
@@ -750,7 +749,7 @@ margin-bottom:-44px;
 	#flexHome h2 {font-size: 12px;}
 }
 
-@media(min-width:768px){
+@media(min-width:992px){
 	.newsText{margin-bottom: 0;}
 	#flexHome h1 {font-size:40px;}
 	#flexHome {
@@ -822,9 +821,9 @@ header#project{padding:22px 0;}
 #verifyImg{margin-bottom: 11px;}
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){}
+@media(max-width:992px){}
 
-@media(min-width:768px){}
+@media(min-width:992px){}
 
 @media(min-width:992px){}
 
@@ -1013,9 +1012,9 @@ body#comingSoon{padding-top:0; background: #4B4A4A}
 
 /*** MEDIA QUERIES ***/
 
-@media(max-width:767px){}
+@media(max-width:992px){}
 
-@media(min-width:768px){
+@media(min-width:992px){
 	
 	
 }
