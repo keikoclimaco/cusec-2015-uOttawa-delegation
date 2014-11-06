@@ -1,0 +1,81 @@
+<div id="portfolioSheetWrapper">
+
+    <header id="project">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h1>Welcome!</h1>
+                    <p class="date">Greetings from your uOttawa Head Delegate. </p>
+                </div>
+                <div class="col-md-2">
+                    <a href="javascript:$.pageslide.close()" class="btn pull-right"><i class="icon-cancel-outline"></i>Close</a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main content -->
+    <section class="content">
+        <div class="container">
+            <section class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron">
+                        <div class="container">
+                            <h1>Hi there!</h1>
+                            <p>My name is Keiko Climaco and I am your uOttawa Head Delegate to CUSEC 2015. I've set this page up to update the students about any necessary information about my goals, duties and activities as HD this year.</p>
+                            <p>This page also hopes to acknowledge any professors, institutions and organizations that will lend us a helping hand to enable students to go to CUSEC.</p>
+                            <p>This year, my main goal is to achieve the LARGEST EVER uOttawa Delegation to CUSEC 2015. 35 out of the 49 students from last year's delegation are still students. Therefore, I should have absolutely no problem with that goal. However, I also hope to achieve that feat with every student going to CUSEC at a reasonable price. I will be working hard to find methods to subsidize costs for the entire delegation. If you would like to make a contribution, or know of any possible methods of sponsorship and funding: please let me know! :D</p>
+                            <p>I also hope to encourage younger students to start going to CUSEC early. I think that it's important to realize early, the amount of tools and knowledge there is out there to become successful developers in the future.</p>
+                            <p>I am aiming to encourage a higher participation rate of uOttawa students in CUSEC's events like DemoCamp and Resume Roast. By providing an incentive, I hope that the all members of our delegation will be encouraged to show other schools what uOttawa engineers, computer scientists and enthusiasts are made of.</p>
+                            <p>If you have any questions or concerns, please do not hesitate to contact me!</p>
+                            <p><strong>Keiko Climaco</strong><br>
+                            uOttawa Head Delegate<br>
+                            CUSEC 2015<br>
+                            ottawa@cusec.net<br>
+                            2015.cusec.net<br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+</div>
+
+<script type="text/javascript">
+$(function () {
+
+
+    $('#bTab a').click(function (e) {
+        $(this).tab('show');
+        e.preventDefault();
+    });
+
+    $('.dropdown-toggle').dropdown();
+
+    $('.dropdown-menu a').click(function (e) {
+        $('li.active').removeClass('open');
+        e.preventDefault();
+    });
+
+
+    $(".accordion-toggle").click(function (e) {
+        var $target = $(this).parent().parent().parent().find('.panel-collapse');
+
+        if($target.hasClass('in')){
+            $target.collapse('hide'); 
+        }else{
+            $('.panel-collapse.in').collapse('hide');
+            $target.collapse('show');
+        }
+        e.preventDefault();
+    });
+
+    $('.close').click(function (e) {
+        $(this).parent('.alert').alert('close');
+        e.preventDefault();
+    });
+
+});  
+
+
+</script>
